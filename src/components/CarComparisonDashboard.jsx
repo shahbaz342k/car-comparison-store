@@ -122,17 +122,17 @@ const CarComparisonDashboard = () => {
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
                 <Car className="w-8 h-8 text-blue-600 mr-3" />
-                <h1 className="text-2xl font-bold text-gray-900">CarCompare</h1>
+                <h1 className="text-base lg:text-2xl font-bold text-gray-900">CarCompare</h1>
               </div>
               
               {selectedCars.length > 0 && (
                 <div className="flex items-center space-x-4">
-                  <span className="text-sm text-gray-600">
+                  <span className="text-xs lg:text-sm text-gray-600">
                     {selectedCars.length} car{selectedCars.length > 1 ? 's' : ''} selected
                   </span>
                   <button
                     onClick={() => setShowComparison(true)}
-                    className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium"
+                    className="px-2 py-1 lg:px-4 lg:py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium"
                   >
                     Compare ({selectedCars.length})
                   </button>
@@ -303,7 +303,7 @@ const CarComparisonDashboard = () => {
         <footer className="bg-white border-t border-gray-200 mt-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="text-center text-gray-600">
-              <p>&copy; { new Date().getFullYear() } CarCompare Dashboard. Built with React and Tailwind CSS.</p>
+              <p>&copy; { new Date().getFullYear() } CarCompare Store</p>
               <p className="mt-2 text-sm">Compare cars by price, performance, features and ratings.</p>
             </div>
           </div>

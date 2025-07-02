@@ -6,11 +6,11 @@
 
 1. Clone this repository -
    ```sh
-   git clone https://github.com/itsMinar/vite-react-tailwind-starter.git
+   git clone https://github.com/shahbaz342k/car-comparison-store.git
    ```
 2. Go to the Directory -
    ```sh
-   cd vite-react-tailwind-starter
+   cd car-comparison-store
    ```
 3. Remove the git initialization (.git) file (don't use powershell) -
    ```sh
