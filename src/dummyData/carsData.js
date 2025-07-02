@@ -1,0 +1,164 @@
+// Mock car data - in a real app, this would come from an API
+export const carsData = [
+    {
+      id: 1,
+      brand: 'Tesla',
+      model: 'Model S',
+      price: 94990,
+      year: 2024,
+      type: 'Electric',
+      weight: 4561,
+      rating: 4.8,
+      reviews: 1247,
+      image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=400&h=250&fit=crop',
+      specs: {
+        range: '405 miles',
+        acceleration: '3.1s 0-60mph',
+        topSpeed: '200 mph',
+        seating: 5,
+        drivetrain: 'AWD'
+      },
+      features: ['Autopilot', 'Premium Audio', 'Glass Roof', 'Supercharging']
+    },
+    {
+      id: 2,
+      brand: 'BMW',
+      model: 'M3',
+      price: 73900,
+      year: 2024,
+      type: 'Sedan',
+      weight: 3704,
+      rating: 4.6,
+      reviews: 892,
+      image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=250&fit=crop',
+      specs: {
+        range: '320 miles',
+        acceleration: '4.1s 0-60mph',
+        topSpeed: '180 mph',
+        seating: 5,
+        drivetrain: 'RWD'
+      },
+      features: ['M Sport Package', 'Harman Kardon Audio', 'Carbon Trim', 'Performance Tires']
+    },
+    {
+      id: 3,
+      brand: 'Audi',
+      model: 'RS6 Avant',
+      price: 116500,
+      year: 2024,
+      type: 'Wagon',
+      weight: 4575,
+      rating: 4.7,
+      reviews: 567,
+      image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=250&fit=crop',
+      specs: {
+        range: '280 miles',
+        acceleration: '3.6s 0-60mph',
+        topSpeed: '190 mph',
+        seating: 5,
+        drivetrain: 'AWD'
+      },
+      features: ['Quattro AWD', 'Bang & Olufsen Audio', 'Air Suspension', 'Sport Exhaust']
+    },
+    {
+      id: 4,
+      brand: 'Mercedes',
+      model: 'AMG GT',
+      price: 134750,
+      year: 2024,
+      type: 'Coupe',
+      weight: 3715,
+      rating: 4.9,
+      reviews: 234,
+      image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=400&h=250&fit=crop',
+      specs: {
+        range: '300 miles',
+        acceleration: '3.1s 0-60mph',
+        topSpeed: '198 mph',
+        seating: 2,
+        drivetrain: 'RWD'
+      },
+      features: ['AMG Performance', 'Burmester Audio', 'Carbon Fiber', 'Track Package']
+    },
+    {
+      id: 5,
+      brand: 'Porsche',
+      model: '911 Turbo S',
+      price: 230400,
+      year: 2024,
+      type: 'Sports Car',
+      weight: 3640,
+      rating: 4.9,
+      reviews: 445,
+      image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=250&fit=crop',
+      specs: {
+        range: '290 miles',
+        acceleration: '2.6s 0-60mph',
+        topSpeed: '205 mph',
+        seating: 4,
+        drivetrain: 'AWD'
+      },
+      features: ['Turbo Engine', 'PASM Suspension', 'Sport Chrono', 'Ceramic Brakes']
+    },
+    {
+      id: 6,
+      brand: 'Toyota',
+      model: 'Camry Hybrid',
+      price: 32420,
+      year: 2024,
+      type: 'Hybrid',
+      weight: 3572,
+      rating: 4.4,
+      reviews: 1856,
+      image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=400&h=250&fit=crop',
+      specs: {
+        range: '686 miles',
+        acceleration: '7.2s 0-60mph',
+        topSpeed: '115 mph',
+        seating: 5,
+        drivetrain: 'FWD'
+      },
+      features: ['Hybrid System', 'Toyota Safety Sense', 'Wireless Charging', 'Premium Audio']
+    },
+    {
+      id: 7,
+      brand: 'Ford',
+      model: 'Mustang Mach-E',
+      price: 48100,
+      year: 2024,
+      type: 'Electric',
+      weight: 4394,
+      rating: 4.3,
+      reviews: 723,
+      image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&h=250&fit=crop',
+      specs: {
+        range: '312 miles',
+        acceleration: '4.8s 0-60mph',
+        topSpeed: '111 mph',
+        seating: 5,
+        drivetrain: 'AWD'
+      },
+      features: ['Ford Co-Pilot360', 'B&O Sound System', 'Hands-Free Liftgate', 'Wireless Updates']
+    },
+    {
+      id: 8,
+      brand: 'Lexus',
+      model: 'LC 500',
+      price: 98850,
+      year: 2024,
+      type: 'Coupe',
+      weight: 4280,
+      rating: 4.6,
+      reviews: 189,
+      image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=250&fit=crop',
+      specs: {
+        range: '368 miles',
+        acceleration: '4.4s 0-60mph',
+        topSpeed: '168 mph',
+        seating: 4,
+        drivetrain: 'RWD'
+      },
+      features: ['Mark Levinson Audio', 'Adaptive Suspension', 'Carbon Roof', 'Luxury Interior']
+    }
+  ];
+  
