@@ -42,7 +42,7 @@ const CarCard = ({ car, onCompare, isSelected, onView }) => {
         
         <div className="p-6">
           <div className="flex items-center justify-between mb-3">
-            <h3 className="text-xl font-bold text-gray-900">
+            <h3 className="text-xl font-bold text-gray-900 line-clamp-1">
               {car.brand} {car.model}
             </h3>
             <span className="text-sm text-gray-500">{car.year}</span>

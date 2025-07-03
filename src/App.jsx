@@ -1,9 +1,9 @@
-import CarComparisonDashboard from "./components/CarComparisonDashboard";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div>
-      <CarComparisonDashboard />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
