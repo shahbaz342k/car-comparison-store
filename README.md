@@ -1,8 +1,6 @@
-# Vite + React + TailwindCSS
+# CarCompare Store (Vite + React + TailwindCSS)
 
-## When you use this template, make sure that you change the author name from package.json file and edit this README.md file.
-
-### This template provides a minimal setup to get React with Tailwind CSS working in Vite with HMR and some ESLint rules.
+### Car Comparison Dashboard - Compare Cars by Price, Performance & Feature.
 
 1. Clone this repository -
    ```sh
